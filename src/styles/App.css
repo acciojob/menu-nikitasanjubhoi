@@ -1,12 +1,44 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+#main {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.btn-container {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.menu-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 150px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 5px;
 }
